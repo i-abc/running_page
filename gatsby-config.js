@@ -1,18 +1,22 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
-    siteTitle: 'Running Page',
-    siteUrl: 'https://yihong.run',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-    description: 'Personal site and blog',
+    siteTitle: '跑步日记 | 是非题',
+    siteUrl: 'https://running.shifeiti.com',
+    logo: 'https://pic.rmb.bdstatic.com/bjh/3f12ba8edb6f10d6c431a4837ab99f6a.png',
+    description: '是非题博主蝴蝶的跑步日记',
     navLinks: [
       {
-        name: 'Blog',
-        url: 'https://yihong.run/running',
+        name: '我的博客',
+        url: 'https://www.shifeiti.com',
       },
       {
-        name: 'About',
-        url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+        name: '我的Strava',
+        url: 'https://www.strava.com/athletes/90400722',
+      },
+      {
+        name: '项目源码',
+        url: 'https://github.com/yihong0618/running_page',
       },
     ],
   },
